@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>freeCodeCamp: Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+<div class="section header">
+    <h1 class="section-heading">simon game</h1>
+    <i class="fa fa-2x fa-chevron-right"></i>
+    <h2 id="display">--</h2>
+    <i class="fa fa-2x fa-chevron-left"></i>
+  </div>
+</div>
+
+ <div class="section game">
+    <div id="red" class="gamebutton" onClick="addToPlayer(this.id)"></div>
+    <div id="green" class="gamebutton" onClick="addToPlayer(this.id)"></div>
+    <div id="blue" class="gamebutton" onClick="addToPlayer(this.id)"></div>
+    <div id="yellow" class="gamebutton" onClick="addToPlayer(this.id)"></div>
+ </div>
+
+<div class="section footer">
+    <button onClick="resetGame()">start</button>
+    <button id="strict" onClick="strict()">strict mode: <i class="fa fa-lg fa-toggle-off"></i></button>
+  </div>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

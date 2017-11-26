@@ -1,0 +1,139 @@
+/* Coolors Exported Palette - coolors.co/247ba0-70c1b3-b2dbbf-f3ffbd-ff1654 */
+
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+.gamebutton {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+#red, #green, #blue, #yellow {
+  margin: 1rem;
+}
+
+#red {
+  border: 5px solid rgba(255, 22, 84, 1);
+}
+#green {
+  border: 5px solid rgba(112, 193, 179, 1);
+}
+#blue {
+  border: 5px solid rgba(36, 123, 160, 1);
+}
+#yellow {
+  border: 5px solid rgba(243, 255, 189, 1);
+}
+
+#red:active {
+  background-color: rgba(255, 22, 84, 1);
+}
+#green:active {
+  background-color: rgba(112, 193, 179, 1);
+}
+#blue:active {
+  background-color: rgba(36, 123, 160, 1);
+}
+#yellow:active {
+  background-color: rgba(243, 255, 189, 1);
+}
+
+#red.activate {
+  background-color: rgba(255, 22, 84, 1);
+}
+#green.activate {
+  background-color: rgba(112, 193, 179, 1);
+}
+#blue.activate {
+  background-color: rgba(36, 123, 160, 1);
+}
+#yellow.activate {
+  background-color: rgba(243, 255, 189, 1);
+}
+
+#strict {
+  border: 0;
+}
+
+.section {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.section-heading {
+  font-weight: 600;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  padding-bottom: 1rem;
+}
+
+#display {
+  display: inline;
+  font-size: 3rem;
+}
+
+.hover {
+  border-radius: 0;
+}
+
+.header {
+  padding-top: 1rem;
+}
+
+.header i {
+  padding: 0 1rem;
+  color: #555;
+}
+
+@media (min-width: 750px) {
+.header {
+  padding-top: 8rem;
+}
+  .section-heading {
+  font-size:5rem;
+  letter-spacing: 2rem;
+  padding-bottom: 4rem;
+}
+  #display {
+  font-size:4rem;
+}
+  .section {
+  padding-bottom: 4rem;
+}
+  #red, #green, #blue, #yellow {
+  margin: 2rem;
+}
+  
+#red:hover {
+  background-color: rgba(255, 22, 84, 0.3);
+}
+#green:hover {
+  background-color: rgba(112, 193, 179, 0.3);
+}  
+#blue:hover {
+  background-color: rgba(36, 123, 160, 0.3);
+}
+#yellow:hover {
+  background-color: rgba(243, 255, 189, 0.3);
+}  
+
+#red:active {
+  background-color: rgba(255, 22, 84, 1);
+}
+#green:active {
+  background-color: rgba(112, 193, 179, 1);
+}
+#blue:active {
+  background-color: rgba(36, 123, 160, 1);
+}
+#yellow:active {
+  background-color: rgba(243, 255, 189, 1);
+}
+  
+.header i {
+  padding: 0 3rem;
+}    
+}
+  
